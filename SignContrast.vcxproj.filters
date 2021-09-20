@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="來源檔案\Rune">
+      <UniqueIdentifier>{e0533ff0-1cd9-4b17-81e5-e89550b3f2ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>資源檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Method_2.cpp">
+      <Filter>資源檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Method_1.cpp">
+      <Filter>資源檔</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="rune\土.png">
+      <Filter>來源檔案\Rune</Filter>
+    </Image>
+    <Image Include="rune\木.png">
+      <Filter>來源檔案\Rune</Filter>
+    </Image>
+    <Image Include="rune\水.png">
+      <Filter>來源檔案\Rune</Filter>
+    </Image>
+    <Image Include="rune\火.png">
+      <Filter>來源檔案\Rune</Filter>
+    </Image>
+    <Image Include="rune\金.png">
+      <Filter>來源檔案\Rune</Filter>
+    </Image>
+    <Image Include="rune\wood.png">
+      <Filter>來源檔案\Rune</Filter>
+    </Image>
+    <Image Include="rune\fire.png">
+      <Filter>來源檔案\Rune</Filter>
+    </Image>
+    <Image Include="rune\gold.png">
+      <Filter>來源檔案\Rune</Filter>
+    </Image>
+    <Image Include="rune\terra.png">
+      <Filter>來源檔案\Rune</Filter>
+    </Image>
+    <Image Include="rune\water.png">
+      <Filter>來源檔案\Rune</Filter>
+    </Image>
+    <Image Include="rune\1.png">
+      <Filter>來源檔案\Rune</Filter>
+    </Image>
+    <Image Include="rune\2.png">
+      <Filter>來源檔案\Rune</Filter>
+    </Image>
+    <Image Include="rune\3.png">
+      <Filter>來源檔案\Rune</Filter>
+    </Image>
+    <Image Include="rune\4.png">
+      <Filter>來源檔案\Rune</Filter>
+    </Image>
+    <Image Include="rune\5.png">
+      <Filter>來源檔案\Rune</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Method.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
